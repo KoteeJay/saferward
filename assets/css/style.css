@@ -1,0 +1,312 @@
+body {
+    height: 100vh;
+}
+
+a {
+    text-decoration: none;
+}
+
+.onboard {
+    margin-top: 200px;
+}
+
+.box {
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.onboard .box a {
+    margin: auto;
+    width: 100%;
+}
+
+a img {
+    width: 150px;
+    margin: auto;
+}
+
+.onboard .box h2 {
+    color: #111827;
+    margin: 20px;
+    padding: 0 20px;
+}
+
+.onboard .box i {
+    color: #111827;
+    margin: 20px;
+}
+
+.signup .box {
+    height: 200px;
+    position: relative;
+}
+
+.signup .box img {
+    width: 100%;
+}
+
+.status {
+    background-color: #111827;
+    padding: 10px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    position: absolute;
+    width: 100%;
+    top: 0;
+    position: fixed;
+}
+
+.status .icons i {
+    margin-left: 5px;
+}
+
+.signup button {
+    background-color: #111827;
+    width: 80%;
+    margin: auto;
+}
+
+.signup strong {
+    color: #111827;
+}
+
+.signup a {
+    color: #111827;
+}
+
+.signup .image {
+    position: relative;
+    width: 100%;
+}
+
+.signup header {
+    position: absolute;
+    position: relative;
+    z-index: 100;
+    top: 200px;
+}
+
+.signup .click {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.signup .click a {
+    width: 48%;
+    border-radius: 20px;
+    /* background-color: #111827; */
+    color: white;
+    height: 100px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.a {
+    background-color: #111827;
+}
+
+.b {
+    background-color: #DB2B19;
+}
+
+.signup .stats img {
+    width: 100%;
+}
+
+.base {
+    width: 100%;
+    height: 70px;
+    background-color: white;
+    border-top: solid 2px #111827;
+    position: fixed;
+    bottom: 0px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.parent {
+    text-align: center;
+}
+
+.base a {
+    color: #111827;
+}
+
+.back i {
+    font-size: 24px;
+}
+
+.search {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    margin-top: 10px;
+}
+
+.search .back {
+    width: 10%;
+    padding-bottom: 10px;
+}
+
+.search .searchbar {
+    width: 85%;
+}
+
+.searchbar {
+    background-color: white;
+    border: solid gray 1px;
+    border-radius: 20px;
+    padding: 0px 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.searchbar .icon {
+    font-size: 24px;
+    padding-bottom: 10px;
+}
+
+.searchbar input {
+    border: none;
+    width: 75%;
+}
+
+.list {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    color: #111827;
+    border-bottom: #8d8d8d solid 1px;
+    padding-bottom: 5px;
+}
+
+.list h4 {
+    margin: 10px 0 0 20px;
+    color: #111827;
+    font-size: 18px;
+}
+
+.list i {
+    font-size: 24px;
+    color: #111827;
+}
+
+.list a {
+    color: #111827;
+    margin-top: 15px;
+}
+
+textarea {
+    width: 100%;
+    height: 70px;
+}
+
+.report button {
+    padding: 8px 40px;
+    background-color: #111827;
+}
+
+.report .form-control {
+    border: none;
+}
+
+.report input {
+    border: gray solid 1px;
+}
+
+.scan {
+    color: #111827;
+}
+
+.scan .pastelink {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.pastelink input {
+    border: #111827 solid 2px;
+    height: 40px;
+    width: 90%;
+    margin: auto;
+    border-radius: 12px;
+    padding-left: 20px;
+}
+
+.scan .pastelink2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 40px;
+    width: 90%;
+    margin: auto;
+    border-radius: 12px;
+    background-color: #111827;
+}
+
+.scan .space {
+    height: 40px;
+}
+
+.scan a {
+    margin: auto;
+    color: white;
+}
+
+.scan .icon {
+    font-size: 50px;
+}
+
+.scanresult {
+    width: 80%;
+    padding: 20px;
+    border: #111827 solid 2px;
+    box-shadow: 5px 5px 2px;
+    margin: auto;
+}
+
+.scan .result {
+    width: 80%;
+    height: 200px;
+    margin: auto;
+}
+
+.scan .result i {
+    font-size: 90px;
+    margin: auto;
+    color: green;
+}
+
+.scan .result {
+    width: 80%;
+    height: 200px;
+}
+
+.dashboard {
+    width: 100%;
+    color: #111827;
+}
+
+.dashboard img {
+    width: 95%;
+}
+
+.arrow_left {
+    position: absolute;
+    font-size: 24px;
+    color: #111827;
+    left: 15px;
+}
